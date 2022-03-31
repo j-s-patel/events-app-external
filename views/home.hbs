@@ -1,8 +1,39 @@
-<ul >
+<head>
+    <style>
+        h2{
+            color: #FF07FE;
+        }
+
+        li{
+            text-align: center;
+            align-items: center;
+            color: #fff;
+            justify-content: center;
+            text-decoration: none;
+        }
+        ul{
+            text-align: center;
+            align-items: center;
+            color: #fff;
+            justify-content: center;
+        }
+
+        body{
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<ul style="text-decoration: none">
   {{#events}}
-    <li>
+    <li  style="list-style: none">
         <h2>{{ title }}</h2>
         <p>{{ description }}</p>
     </li>
   {{/events}}
 </ul>
+</div>
+</body>
